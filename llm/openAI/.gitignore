@@ -1,1 +1,11 @@
+# Environment variables
 .env
+*.env
+
+# Database
+*.db
+*.sqlite
+
+# Local configuration
+config/local_settings.py
+config/.env
