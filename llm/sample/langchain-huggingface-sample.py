@@ -1,6 +1,6 @@
 from langchain_huggingface import HuggingFaceEndpoint
 import os
-token='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'
+token=''
 
 import os
 os.environ["HUGGINGFACEHUB_API_TOKEN"]=token
