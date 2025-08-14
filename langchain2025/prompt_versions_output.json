@@ -1,0 +1,40 @@
+{
+    "v1.0": {
+        "prompt": "Summarize the following article in 3 sentences.",
+        "outputs": {
+            "article1": "Simulated Output for:\nSummarize the following article in 3 sentences.\n\nT...",
+            "article2": "Simulated Output for:\nSummarize the following article in 3 sentences.\n\nA..."
+        },
+        "scores": {
+            "article1": {
+                "accuracy": 3,
+                "clarity": 3,
+                "relevance": 3
+            },
+            "article2": {
+                "accuracy": 3,
+                "clarity": 3,
+                "relevance": 3
+            }
+        }
+    },
+    "v2.0": {
+        "prompt": "You are an expert. Summarize the article in 3 key sentences.",
+        "outputs": {
+            "article1": "Simulated Output for:\nYou are an expert. Summarize the article in 3 key ...",
+            "article2": "Simulated Output for:\nYou are an expert. Summarize the article in 3 key ..."
+        },
+        "scores": {
+            "article1": {
+                "accuracy": 3,
+                "clarity": 3,
+                "relevance": 3
+            },
+            "article2": {
+                "accuracy": 3,
+                "clarity": 3,
+                "relevance": 3
+            }
+        }
+    }
+}

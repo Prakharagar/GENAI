@@ -1,0 +1,15 @@
+{
+    "name": "test",
+    "input_variables": [
+        "document_text"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are a strict sentiment analysis model. Based only on the text below, \ncomplete the following with NO extra information or variation.\n\nText: \"{document_text}\"\n- Explanation 1: ...\n  Sentiment: <Positive/Neutral/Negative>\n\n- Explanation 2: ...\n  Sentiment: <Positive/Neutral/Negative>\n\n- Explanation 3: ...\n  Sentiment: <Positive/Neutral/Negative>\n\nProbability (must add up to 100%):\n- Positive: <xx>%\n- Neutral: <xx>%\n- Negative: <xx>%\n\nOverall Sentiment: <Positive/Neutral/Negative>\nOverall Probability: <xx>%\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
