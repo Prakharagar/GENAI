@@ -1,0 +1,77 @@
+{
+  "run_id": "run_1755753377092_9315f9",
+  "timestamp": "2025-08-21T10:46:17.092560",
+  "question": "what is the ticker, company name,five risk factors",
+  "strategy": "hyde",
+  "prompt_version": "fin_v1_1755753364",
+  "model_name": "gpt-4o-mini",
+  "k_retrieved": 5,
+  "retrieved_docs": [
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "is_table": false,
+        "subsection_title": "Item 1A. Risk Factors",
+        "ticker": "MMM",
+        "child_index": 393,
+        "section_title": "Document",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "subsection_title": "Item 1. Business",
+        "child_index": 391,
+        "section_title": "Document",
+        "ticker": "MMM",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "is_table": true
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "child_index": 368,
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "ticker": "MMM",
+        "subsection_title": "Item 1. Business",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "section_title": "Document",
+        "is_table": false,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "child_index": 396,
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "is_table": false,
+        "subsection_title": "Item 1A. Risk Factors",
+        "ticker": "MMM",
+        "section_title": "Document"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "section_title": "Document",
+        "child_index": 924,
+        "is_table": true,
+        "ticker": "MMM"
+      }
+    }
+  ],
+  "answer": "content='No relevant information.' additional_kwargs={} response_metadata={'token_usage': {'completion_tokens': 4, 'prompt_tokens': 285, 'total_tokens': 289, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini', 'system_fingerprint': 'fp_560af6e559', 'finish_reason': 'stop', 'logprobs': None} id='run--b716425d-512a-481f-af35-9afdd555203f-0'"
+}

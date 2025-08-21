@@ -1,0 +1,89 @@
+{
+  "run_id": "run_1755682953415_5545ce",
+  "timestamp": "2025-08-20T15:12:33.415341",
+  "question": " Please identify the following Ticker , Company Name ,headcount growth, Challenge Summary , Challenge Context , Business Value , Business Value Context , Department , Adobe Solution , Filing Type , Filing Date , Source Quote , Source Section ,",
+  "strategy": "step_back",
+  "prompt_version": "fin_v1_1755682916",
+  "model_name": "gpt-4o-mini",
+  "k_retrieved": 6,
+  "retrieved_docs": [
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "ticker": "MMM",
+        "section_title": "Document",
+        "is_table": true,
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "child_index": 2199,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "subsection_title": "Item 8. Financial Statements and Supplementary Data",
+        "doc_id": "42a403af-e009-4945-89f9-2b58063bf1b2"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "subsection_title": "Item 16. Form 10-K Summary",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "child_index": 2433,
+        "ticker": "MMM",
+        "section_title": "Document",
+        "is_table": true,
+        "doc_id": "42a403af-e009-4945-89f9-2b58063bf1b2"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "doc_id": "42a403af-e009-4945-89f9-2b58063bf1b2",
+        "section_title": "Document",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "child_index": 2138,
+        "is_table": true,
+        "subsection_title": "Item 8. Financial Statements and Supplementary Data",
+        "ticker": "MMM",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "ticker": "MMM",
+        "subsection_title": "Item 8. Financial Statements and Supplementary Data",
+        "doc_id": "42a403af-e009-4945-89f9-2b58063bf1b2",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "is_table": true,
+        "section_title": "Document",
+        "child_index": 2145,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "is_table": true,
+        "ticker": "MMM",
+        "child_index": 925,
+        "section_title": "Document",
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "doc_id": "42a403af-e009-4945-89f9-2b58063bf1b2",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\DEF 14A_2025-03-26_000006674025000029_primary.json",
+      "metadata": {
+        "doc_id": "a15b7ee5-1e7e-4853-bcf6-336d2354602b",
+        "section_title": "Misc",
+        "is_table": true,
+        "file": "DEF 14A_2025-03-26_000006674025000029_primary.htm",
+        "ticker": "MMM",
+        "child_index": 368,
+        "source_path": "json_data\\dbe_MMM\\DEF 14A_2025-03-26_000006674025000029_primary.json"
+      }
+    }
+  ],
+  "answer": "content='No relevant information.' additional_kwargs={} response_metadata={'token_usage': {'completion_tokens': 4, 'prompt_tokens': 317, 'total_tokens': 321, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini', 'system_fingerprint': 'fp_560af6e559', 'finish_reason': 'stop', 'logprobs': None} id='run--a53ea04e-99be-4e42-aa3b-9dc90f7c0349-0'"
+}

@@ -1,0 +1,77 @@
+{
+  "run_id": "run_1755677859264_21fe5a",
+  "timestamp": "2025-08-20T13:47:39.264907",
+  "question": "\n    \"Please identify the following \"     \"Ticker , Company Name ,headcount growth, Challenge Summary , \"     \"Challenge Context , Business Value , Business Value Context ,\"     \" Department , Adobe Solution , Filing Type , Filing Date , \"     \"Source Quote , Source Section\n    ",
+  "strategy": "decompose",
+  "prompt_version": "fin_v1_1755677834",
+  "model_name": "gpt-4o-mini",
+  "k_retrieved": 5,
+  "retrieved_docs": [
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "ticker": "MMM",
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "is_table": true,
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "child_index": 928,
+        "section_title": "Document",
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "is_table": true,
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "ticker": "MMM",
+        "child_index": 936,
+        "section_title": "Document"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "is_table": true,
+        "section_title": "Document",
+        "child_index": 928,
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "ticker": "MMM",
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "is_table": true,
+        "section_title": "Document",
+        "child_index": 2145,
+        "subsection_title": "Item 8. Financial Statements and Supplementary Data",
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "ticker": "MMM"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "child_index": 391,
+        "ticker": "MMM",
+        "section_title": "Document",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "doc_id": "61632580-23eb-44b7-ba87-5dd9554eeefa",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "is_table": true,
+        "subsection_title": "Item 1. Business"
+      }
+    }
+  ],
+  "answer": "content='No relevant information.' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 4, 'prompt_tokens': 362, 'total_tokens': 366, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_560af6e559', 'id': 'chatcmpl-C6YIkoRjhtDyVkjia3Of55Xc5FUK7', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='run--edfe59b9-02b6-48c6-86b4-b788829b7a75-0' usage_metadata={'input_tokens': 362, 'output_tokens': 4, 'total_tokens': 366, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}"
+}

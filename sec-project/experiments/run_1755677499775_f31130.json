@@ -1,0 +1,77 @@
+{
+  "run_id": "run_1755677499775_f31130",
+  "timestamp": "2025-08-20T13:41:39.775695",
+  "question": "\n    \"Please identify the following \"     \"Ticker , Company Name ,headcount growth, Challenge Summary , \"     \"Challenge Context , Business Value , Business Value Context ,\"     \" Department , Adobe Solution , Filing Type , Filing Date , \"     \"Source Quote , Source Section\n    ",
+  "strategy": "decompose",
+  "prompt_version": "fin_v1_1755677473",
+  "model_name": "gpt-4o-mini",
+  "k_retrieved": 5,
+  "retrieved_docs": [
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "section_title": "Document",
+        "ticker": "MMM",
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "child_index": 928,
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "is_table": true,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6",
+        "section_title": "Document",
+        "ticker": "MMM",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "is_table": true,
+        "child_index": 936,
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "child_index": 928,
+        "ticker": "MMM",
+        "section_title": "Document",
+        "is_table": true,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "section_title": "Document",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "ticker": "MMM",
+        "child_index": 2145,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "subsection_title": "Item 8. Financial Statements and Supplementary Data",
+        "is_table": true,
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "ticker": "MMM",
+        "section_title": "Document",
+        "child_index": 934,
+        "is_table": true
+      }
+    }
+  ],
+  "answer": "content='No relevant information.' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 4, 'prompt_tokens': 362, 'total_tokens': 366, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_560af6e559', 'id': 'chatcmpl-C6YCxjPfnvOdB78COOSWMrYmjwdr3', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='run--50a7491c-9135-40ef-8728-2ef11d2d7bb8-0' usage_metadata={'input_tokens': 362, 'output_tokens': 4, 'total_tokens': 366, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}"
+}

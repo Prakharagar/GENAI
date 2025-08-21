@@ -1,0 +1,77 @@
+{
+  "run_id": "run_1755677717740_e7492c",
+  "timestamp": "2025-08-20T13:45:17.740311",
+  "question": "\n    \"Please identify the following \"     \"Ticker , Company Name ,headcount growth, Challenge Summary , \"     \"Challenge Context , Business Value , Business Value Context ,\"     \" Department , Adobe Solution , Filing Type , Filing Date , \"     \"Source Quote , Source Section\n    ",
+  "strategy": "naive",
+  "prompt_version": "fin_v1_1755677713",
+  "model_name": "gpt-4o-mini",
+  "k_retrieved": 5,
+  "retrieved_docs": [
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "subsection_title": "Item 16. Form 10-K Summary",
+        "is_table": true,
+        "child_index": 2433,
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "section_title": "Document",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "ticker": "MMM"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "is_table": true,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "subsection_title": "Item 8. Financial Statements and Supplementary Data",
+        "section_title": "Document",
+        "ticker": "MMM",
+        "child_index": 2138,
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "child_index": 2402,
+        "is_table": true,
+        "ticker": "MMM",
+        "section_title": "Document",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "doc_id": "0d207374-f0d3-4b51-babd-9ba9678f15cf",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "subsection_title": "Item 15. Exhibits, Financial Statement Schedules"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "section_title": "Document",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6",
+        "child_index": 928,
+        "is_table": true,
+        "ticker": "MMM",
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "subsection_title": "Item 16. Form 10-K Summary",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "doc_id": "0d207374-f0d3-4b51-babd-9ba9678f15cf",
+        "is_table": true,
+        "ticker": "MMM",
+        "child_index": 2433,
+        "section_title": "Document",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm"
+      }
+    }
+  ],
+  "answer": "content='No relevant information.' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 4, 'prompt_tokens': 362, 'total_tokens': 366, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_560af6e559', 'id': 'chatcmpl-C6YGTLIgxVNJ8rmFEItGPFpmntHu1', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='run--688c3856-53b6-4ff7-8264-d9edcb97c0bf-0' usage_metadata={'input_tokens': 362, 'output_tokens': 4, 'total_tokens': 366, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}"
+}

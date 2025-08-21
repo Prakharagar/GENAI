@@ -1,0 +1,64 @@
+{
+  "run_id": "run_1755678191134_e26367",
+  "timestamp": "2025-08-20T13:53:11.134634",
+  "question": " Please identify the following Ticker , Company Name ,headcount growth, Challenge Summary , Challenge Context , Business Value , Business Value Context , Department , Adobe Solution , Filing Type , Filing Date , Source Quote , Source Section ,",
+  "strategy": "decompose",
+  "prompt_version": "fin_v1_1755678168",
+  "model_name": "gpt-4o-mini",
+  "k_retrieved": 4,
+  "retrieved_docs": [
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "section_title": "Document",
+        "ticker": "MMM",
+        "subsection_title": "Item 8. Financial Statements and Supplementary Data",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "is_table": true,
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6",
+        "child_index": 2145
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "is_table": true,
+        "section_title": "Document",
+        "ticker": "MMM",
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "child_index": 924,
+        "doc_id": "941dfdee-9492-43e0-bd78-5f7ef282589a"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "is_table": true,
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "doc_id": "f9e9a7ec-ef89-456d-821b-074186c59fcb",
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "child_index": 927,
+        "section_title": "Document",
+        "ticker": "MMM",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "section_title": "Document",
+        "doc_id": "0351ac5c-1def-475b-8a32-8b0096fe0dd6",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "ticker": "MMM",
+        "child_index": 928,
+        "is_table": true
+      }
+    }
+  ],
+  "answer": "content='No relevant information.' additional_kwargs={'refusal': None} response_metadata={'token_usage': {'completion_tokens': 4, 'prompt_tokens': 362, 'total_tokens': 366, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini-2024-07-18', 'system_fingerprint': 'fp_560af6e559', 'id': 'chatcmpl-C6YO6d10XqIBQrJ0EqltqZnOLgmQI', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None} id='run--130807d8-0473-4c7a-b6d7-9dd1e2cf71cb-0' usage_metadata={'input_tokens': 362, 'output_tokens': 4, 'total_tokens': 366, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}"
+}

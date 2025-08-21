@@ -1,0 +1,64 @@
+{
+  "run_id": "run_1755754623276_26bb74",
+  "timestamp": "2025-08-21T11:07:03.276999",
+  "question": " Please identify the following Ticker , Company Name ,headcount growth, Challenge Summary , Challenge Context , Business Value , Business Value Context , Department , Adobe Solution , Filing Type , Filing Date , Source Quote , Source Section ,",
+  "strategy": "decompose",
+  "prompt_version": "fin_v1_1755754604",
+  "model_name": "gpt-4o-mini",
+  "k_retrieved": 4,
+  "retrieved_docs": [
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "ticker": "MMM",
+        "section_title": "Document",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "is_table": true,
+        "subsection_title": "Item 8. Financial Statements and Supplementary Data",
+        "child_index": 2145,
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "section_title": "Document",
+        "child_index": 2433,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "is_table": true,
+        "subsection_title": "Item 16. Form 10-K Summary",
+        "ticker": "MMM",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "section_title": "Document",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "ticker": "MMM",
+        "subsection_title": "Item 10. Directors, Executive Officers and Corporate Governance",
+        "is_table": true,
+        "child_index": 2232
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "section_title": "Document",
+        "is_table": true,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "child_index": 2145,
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "subsection_title": "Item 8. Financial Statements and Supplementary Data",
+        "ticker": "MMM"
+      }
+    }
+  ],
+  "answer": "content='No relevant information.' additional_kwargs={} response_metadata={'token_usage': {'completion_tokens': 4, 'prompt_tokens': 317, 'total_tokens': 321, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini', 'system_fingerprint': 'fp_51db84afab', 'finish_reason': 'stop', 'logprobs': None} id='run--16773eea-a1ec-475c-afa2-e39abe97c502-0'"
+}

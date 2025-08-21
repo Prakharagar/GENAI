@@ -1,0 +1,102 @@
+{
+  "run_id": "run_1755753372095_a53d66",
+  "timestamp": "2025-08-21T10:46:12.095799",
+  "question": "what is the ticker, company name,five risk factors",
+  "strategy": "multi_query",
+  "prompt_version": "fin_v1_1755753364",
+  "model_name": "gpt-4o-mini",
+  "k_retrieved": 7,
+  "retrieved_docs": [
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "section_title": "Document",
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "subsection_title": "Item 1A. Risk Factors",
+        "is_table": false,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "child_index": 393,
+        "ticker": "MMM"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "subsection_title": "Item 1A. Risk Factors",
+        "ticker": "MMM",
+        "child_index": 472,
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "is_table": false,
+        "section_title": "Document",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "is_table": false,
+        "subsection_title": "Item 1A. Risk Factors",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "section_title": "Document",
+        "ticker": "MMM",
+        "child_index": 444,
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "section_title": "Document",
+        "is_table": false,
+        "subsection_title": "Item 1A. Risk Factors",
+        "ticker": "MMM",
+        "child_index": 423,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "subsection_title": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+        "section_title": "Document",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "is_table": false,
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "ticker": "MMM",
+        "child_index": 678,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "section_title": "Document",
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "child_index": 50,
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "ticker": "MMM",
+        "is_table": false,
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm"
+      }
+    },
+    {
+      "source": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+      "metadata": {
+        "ticker": "MMM",
+        "section_title": "Document",
+        "is_table": false,
+        "doc_id": "24c4d304-e0e4-4c92-a955-8672c49bc48d",
+        "subsection_title": "Item 1A. Risk Factors",
+        "file": "10-K_2025-02-05_000006674025000006_primary.htm",
+        "source_path": "json_data\\dbe_MMM\\10-K_2025-02-05_000006674025000006_primary.json",
+        "child_index": 457
+      }
+    }
+  ],
+  "answer": "content='No relevant information.' additional_kwargs={} response_metadata={'token_usage': {'completion_tokens': 4, 'prompt_tokens': 285, 'total_tokens': 289, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-mini', 'system_fingerprint': 'fp_51db84afab', 'finish_reason': 'stop', 'logprobs': None} id='run--81a41a35-c178-411e-a7dc-d9710ddf5c72-0'"
+}
